@@ -7,7 +7,7 @@ jQuery插件库，包括滚动轮播插件、回到顶部插件、瀑布流插�
 - [demo](https://reedsun.github.io/jQuery-plugin/carousel/demo.html)
 
 ## gotop
-滚动回到顶部插件，可以设置当页面滚动指定距离后显示回到顶部按钮，滚动回到顶部的速度。
+滚动回到顶部插件，可以设置当页面滚动指定距离后显示回到顶部按钮，以及滚动回到顶部的速度。
 
 - [demo](https://reedsun.github.io/jQuery-plugin/gotop/demo.html)
 
@@ -22,7 +22,7 @@ jQuery插件库，包括滚动轮播插件、回到顶部插件、瀑布流插�
 - [demo](https://reedsun.github.io/jQuery-plugin/stickup/demo.html)
 
 ## modal
-模态框插件。
+模态框插件。可以指定点击某个元素后出现模态框
 
 - [demo](https://reedsun.github.io/jQuery-plugin/modal/demo.html)
 
@@ -46,9 +46,9 @@ jQuery插件库，包括滚动轮播插件、回到顶部插件、瀑布流插�
 ```
 
 ## datePicker
-日期输入插件，可以生成一个日历对象用于在选择框中选取日期。
+日期输入插件，可以生成一个日历对象用于选取日期。
 
-- [demo](https://reedsun.github.io/jQuery-plugin/datePiacker/demo.html)
+- [demo](https://reedsun.github.io/jQuery-plugin/datePicker/demo.html)
 
 ## tab
 tab切换插件，可以自动生成tab切换模块功能。
