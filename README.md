@@ -14,7 +14,7 @@ jQuery插件库，包括滚动轮播插件、回到顶部插件、瀑布流插�
 ## waterfall
 图片瀑布流插件，选择要进行瀑布流布置的图片即可自动实现瀑布流。
 
-- [demo](https://reedsun.github.io/jQuery-plugin/weterfall/demo.html)
+- [demo](https://reedsun.github.io/jQuery-plugin/waterfall/demo.html)
 
 ## stickup
 导航栏悬浮插件，可以将指定元素固定在浏览器顶部从而不受浏览器滚动的影响。
