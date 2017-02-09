@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>demo waterfall</title>
+	<style type="text/css">
+		.water-basic {
+			position: relative;
+		}
+		.item {
+			position: absolute;
+			width: 200px;
+			margin: 5px;
+			transition: all 1s;
+		}
+		.box1 {
+			height: 500px;
+			background-color: red;
+		}
+		.box2 {
+			height: 300px;
+			background-color: blue;
+		}
+		.box3 {
+			height: 200px;
+			background-color: gray;
+		}
+		.box4 {
+			height: 700px;
+			background-color: pink;
+		}
+		.box5 {
+			height: 600px;
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+<div class="water-basic">
+	<div class="item box1">1</div>
+	<div class="item box2">2</div>
+	<div class="item box1">3</div>
+	<div class="item box4">4</div>
+	<div class="item box5">5</div>
+	<div class="item box3">6</div>
+	<div class="item box2">7</div>
+	<div class="item box1">8</div>
+	<div class="item box1">9</div>
+	<div class="item box2">10</div>
+	<div class="item box4">11</div>
+	<div class="item box3">12</div>
+	<div class="item box1">13</div>
+	<div class="item box5">14</div>
+	<div class="item box2">15</div>
+	<div class="item box1">16</div>
+	<div class="item box3">17</div>
+	<div class="item box1">18</div>
+	<div class="item box2">19</div>
+	<div class="item box1">20</div>
+	<div class="item box4">21</div>
+	<div class="item box5">22</div>
+	<div class="item box3">23</div>
+	<div class="item box2">24</div>
+	<div class="item box1">25</div>
+	<div class="item box1">26</div>
+	<div class="item box2">27</div>
+	<div class="item box4">28</div>
+	<div class="item box3">29</div>
+	<div class="item box1">30</div>
+	<div class="item box5">31</div>
+	<div class="item box2">32</div>
+	<div class="item box1">33</div>
+	<div class="item box3">34</div>
+</div>
+
+
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./waterfall.js"></script>
+<script type="text/javascript">
+$(window).waterfall($(".item"));
+</script>
+</body>
+</html>
