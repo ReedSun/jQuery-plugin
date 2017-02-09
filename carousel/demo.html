@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>demo Carousel</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			list-style: none;
+		}
+		.clear:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+
+		/*carousel*/
+		.carousel {
+			position: relative;
+			height: 200px;
+			width: 300px;
+			overflow: hidden;
+		}
+		.carousel .pic-ct {
+			width: 1200px;
+			position: absolute;
+		}
+		.carousel .pic {
+			float: left;
+		}
+		.carousel .pic img {
+			width: 300px;
+			height: 200px;
+		}
+		.carousel .arrow-ct .arrow {
+			top: 85px;
+			z-index: 100;
+			background-color: rgba(0,0,0,0.4);
+			cursor: pointer;
+			height: 30px;
+			width: 30px;
+			line-height: 30px;
+			text-align: center;
+			border-radius: 30px;
+			color: white;
+		}
+		.carousel .arrow-ct .arrow:hover {
+			background-color: rgba(0,0,255,0.5);
+		}
+		.carousel .arrow-ct .left-arrow {
+			position: absolute;
+			left: 10px;
+		}
+		.carousel .arrow-ct .right-arrow {
+			position: absolute;
+			left: 260px;
+		}
+		.carousel .page-ct {
+			position: absolute;
+			top: 175px;
+		}
+		.carousel .page-ct li {
+			float: left;
+			width: 50px;
+			margin-left: 20px;
+			height: 5px;
+			background-color: rgba(0,0,0,0.4);
+			cursor: pointer;
+		}
+		.carousel .page-ct li:hover {
+			background-color: rgba(0,0,255,0.5);
+		}
+		.carousel .page-ct .active {
+			background-color: rgba(0,0,0,1);
+		}
+	</style>
+</head>
+<body>
+<div class="carousel">
+	<ul class="pic-ct clear">
+		<li class="pic"><img src="http://p1.bpimg.com/567571/680204550226630b.jpg"></li>
+		<li class="pic"><img src="http://p1.bqimg.com/567571/008f209e11551596.jpg"></li>
+		<li class="pic"><img src="http://p1.bqimg.com/567571/6295855ddddce03f.jpg"></li>
+		<li class="pic"><img src="http://p1.bqimg.com/567571/34fd0c627a1c2bdf.jpg"></li>
+	</ul>
+	<ul class="arrow-ct">
+		<li class="left-arrow arrow"><</li>
+		<li class="right-arrow arrow">></li>
+	</ul>
+	<ul class="page-ct">
+		<li class="active"></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+<div class="carousel">
+	<ul class="pic-ct clear">
+		<li class="pic"><img src="http://p1.bpimg.com/567571/c7d07310de73f7bc.jpg"></li>
+		<li class="pic"><img src="http://p1.bpimg.com/567571/36ad7155b2f46530.jpg"></li>
+		<li class="pic"><img src="http://p1.bqimg.com/567571/a0299d7d1ff019de.jpg"></li>
+		<li class="pic"><img src="http://p1.bqimg.com/567571/4d57408548a5df69.jpg"></li>
+	</ul>
+	<ul class="arrow-ct">
+		<li class="left-arrow arrow"><</li>
+		<li class="right-arrow arrow">></li>
+	</ul>
+	<ul class="page-ct">
+		<li class="active"></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+
+
+<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="./carousel.js"></script>
+<script type="text/javascript">
+$(window).carousel($(".carousel").eq(0));
+$(window).carousel($(".carousel").eq(1));
+</script>
+</body>
+</html>
