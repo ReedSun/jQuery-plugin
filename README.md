@@ -2,7 +2,7 @@
 jQuery插件库，包括滚动轮播插件、回到顶部插件、瀑布流插件、skickup效果插件、模态框插件、日期输入插件、tab切换插件等。
 
 ## carousel
-滚动轮播插件，包含两个可以前后滚动的按钮，跳转到指定页面的按钮，以及让其自动滚动的函数。
+滚动轮播插件，包含两个可以前后滚动的按钮，跳转到指定页面的按钮，以及让其自动滚动的功能。
 
 - [demo](https://reedsun.github.io/jQuery-plugin/carousel/demo.html)
 
