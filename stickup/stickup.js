@@ -7,9 +7,7 @@ $.fn.stick =function(){
 		isFixed = false;
 
 	//  克隆元素，用于占位
-	if ($curClone) {
-		var $curClone = $cur.clone().css({visibility: "hidden",display: "none"}).insertBefore($cur);
-	}
+	var $curClone = $cur.clone().css({visibility: "hidden",display: "none"}).insertBefore($cur);
 	
 	
 
