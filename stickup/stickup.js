@@ -8,7 +8,6 @@ $.fn.stick =function(){
 
 	//  克隆元素，用于占位
 	if ($curClone) {
-		// 有可能出现insert多个的情况
 		var $curClone = $cur.clone().css({visibility: "hidden",display: "none"}).insertBefore($cur);
 	}
 	
