@@ -7,9 +7,11 @@ $.fn.stick =function(){
 		isFixed = false;
 
 	//  克隆元素，用于占位
-	var $curClone = $cur.clone()
-						.css({visibility: "hidden",display: "none"})
-						.insertBefore($cur);
+	if ($curClone) {
+		// 有可能出现insert多个的情况
+		var $curClone = $cur.clone().css({visibility: "hidden",display: "none"}).insertBefore($cur);
+	}
+	
 	
 
 	//  设置监听函数
